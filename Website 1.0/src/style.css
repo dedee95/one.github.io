@@ -1,0 +1,134 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/* ==================== batas pembuatan format ==================== */
+
+body {
+    font: 16px/28px;
+    font-family: serif;
+    background-image: url(../gambar/pexels-sean-whang-804269.jpg);
+}
+
+.all{
+    width: 900px;
+    margin: auto;
+    background-color: white;
+    
+}
+
+.header {
+    padding: 15px;
+}
+
+.header .judul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 6px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #3532f7;
+}
+
+.header a:hover{
+    font-size: 20px;
+    color: white;
+    background-color: #1e3d59;
+    padding: 5px;
+}
+
+.gambar {
+    height: 500px;
+    background-image: url(../gambar/covid\ 19\ \(1000\ x\ 667\ px\).png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content .author {
+    font-size: 11px;
+}
+.author a{
+    text-decoration: none;
+    color: #3532f7;
+}
+
+.content p {
+    margin-bottom: 30px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.footer {
+    background-color: #5ca7ee;
+    padding: 15px;
+}
+
+.footer .copy {
+    text-align: center;
+    color: white;
+}
